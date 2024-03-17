@@ -4,4 +4,19 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+
+    <style name="orange_button">
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="white_button_black_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/dark_silver</item>
+    </style>
+
+    <style name="white_button_orange_text">
+        <item name="android:textColor">@color/light_orange</item>
+        <item name="android:backgroundTint">@color/dark_silver</item>
+    </style>
 </resources>
